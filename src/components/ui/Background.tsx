@@ -6,7 +6,7 @@ import { useCallback } from "react";
 
 
 const Background = ():JSX.Element => {
-  const particlesInit = useCallback(async (engine: Engine) => {
+  const particlesInit = useCallback(async (engine: any) => {
     await loadFull(engine);
   }, []);
 
