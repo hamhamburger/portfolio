@@ -10,8 +10,8 @@ import Paper from '@mui/material/Paper';
 
 
 const rows = [
-  {skill:"javascript",description:"昔からちょっとしたツール作成などに使っており,\nDouglasの本も読んだ、1番自信のある言語です。\nクロージャなどの仕組みの部分から\nasync/awaitなどのモダンな機能まで理解しています。"},
-  {skill:"react",description:"設計の基本や関数コンポーネント,\nhooksなどについては理解しています。\nただ複雑なフォームの設計などで\nコンポーネントの責務をどう分割していくか\nどこにステートを持たせるべきか\nなどの最適解は分かリません。\nhooksによるパフォーマンスの最適化も弱いです。\n便利なコンポーネントを使い\nそれっぽいサイトを作れます。"},
+  {skill:"javascript",description:"昔からちょっとしたツール作成などに使っており,1番自信のある言語です。\nDouglasの本も読みました。\nクロージャなどの仕組みの部分から\nasync/awaitなどのモダンな機能まで理解しています。"},
+  {skill:"react",description:"設計の基本や関数コンポーネント,\nhooksなどについては理解しています。\nただ複雑なフォームの設計などで\nコンポーネントの責務をどう分割していくか\nどこにステートを持たせるべきか\nなどの最適解は分かリません。\nhooksによるパフォーマンスの最適化も弱いです。\n便利なコンポーネントを使い\nそれっぽいサイトなら作れます。"},
   {skill:"ruby",description:"railsをやるために学びました。\nRuby3の機能や非同期処理などは分りません。"},
   {skill:"rails",description:"パーフェクトRuby on Railsと\nRuby on Rails 6 実践ガイド&機能拡張編という本で勉強しました。\n簡単なSNSなどであれば作成できます。\n自動購入botなどを作っていたのでe2eテストも書けます。\nrspecも同様です。"},
   {skill:"Java",description:"8年ほど前にあるライブラリを使うため\n基本的な文法を学習しただけですので自信はありません。\n"},

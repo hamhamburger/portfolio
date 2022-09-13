@@ -2,7 +2,7 @@
 import Background from "../ui/Background";
 import Header from "../ui/Header";
 import SiteCard from "../ui/SiteCard";
-import { Box, typographyClasses } from "@mui/material";
+import { Box } from "@mui/material";
 import SkillTable from "../ui/SkillTable";
 import test_play from "../../assets/test_play.gif"
 import trash from '../../assets/trash.png';
