@@ -2,21 +2,22 @@
 import Background from "../ui/Background";
 import Header from "../ui/Header";
 import SiteCard from "../ui/SiteCard";
-import { Box } from "@mui/material";
+import { Box, typographyClasses } from "@mui/material";
 import SkillTable from "../ui/SkillTable";
-
+import test_play from "../../assets/test_play.gif"
+import trash from '../../assets/trash.png';
 const siteDataList = [
   {
     title:"Formula",
     body:"React+ReactFlow+Firebaseを用いて作成した、フローチャートからフォームを作成できるアプリです。",
     url:"https://easy-diagram-form.web.app/",
-    imagePath:"assets/test_play.gif"
+    imagePath:test_play
   },
   {
     title:"ゴミ箱",
     body:"勉強の過程で生まれたTodoリストやカウンターなどのコンポーネントの墓場です（特に面白いものはありません）",
     url:"https://react-practice-febca.web.app/",
-    imagePath:"assets/trash.png"
+    imagePath:trash
   }
 ]
 
