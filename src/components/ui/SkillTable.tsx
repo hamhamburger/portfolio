@@ -15,7 +15,7 @@ const rows = [
   {skill:"ruby",description:"railsをやるために学びました。\nRuby3の機能や非同期処理などは分りません。"},
   {skill:"rails",description:"パーフェクトRuby on Railsと\nRuby on Rails 6 実践ガイド&機能拡張編という本で勉強しました。\n簡単なSNSなどであれば作成できます。\n自動購入botなどを作っていたのでe2eテストも書けます。\nrspecも同様です。"},
   {skill:"Java",description:"8年ほど前にあるライブラリを使うため\n基本的な文法を学習しただけですので自信はありません。\n"},
-  {skill:"C++",description:"中学生の時、Effective C++やEssential C++などの名著を読み\nパソコン無しで勉強していました。\nこれがプログラミングを理解するベースになったと思いますが\n今は多分C++では何もできません。"}
+  {skill:"C++",description:"中学生の時、Effective C++やEssential C++などの名著を読み\nパソコン無しで勉強していました。\nこれがプログラミングを理解するベースになったと思いますが\nC++でゴリゴリ書けと言われたら無理です。"}
 ];
 
 
@@ -25,7 +25,7 @@ export default function SkillTable():JSX.Element {
     <TableContainer component={Paper} >
       <Table aria-label="simple table">
         <TableHead>
-          <TableRow>
+          <TableRow sx={{ backgroundColor:"lavender"}}>
             <TableCell>技術</TableCell>
             <TableCell align="justify">できること</TableCell>
           </TableRow>
@@ -41,7 +41,9 @@ export default function SkillTable():JSX.Element {
                 
               </TableCell>
               <TableCell align="justify" sx={{overflowWrap:"break-word"}}>
-                {row.description.split("\n").map((line,index) => <p style={{margin:"3px"}} key={index}>{line}</p>)}
+                
+                  {row.description.split("\n").map((line,index) => <p style={{margin:"3px"}} key={index}>{line}</p>)}
+                  
                 
                 
                 </TableCell>
