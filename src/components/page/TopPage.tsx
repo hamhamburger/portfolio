@@ -52,9 +52,17 @@ const TopPage = ():JSX.Element => {
           );
         })}
       </Box>
-   
-      <Box id="skills" sx={{marginTop:"50px", marginRight: 'auto', marginLeft: 'auto',}}>
-        <SkillTable />  
+
+      <Box
+        id='skills'
+        sx={{
+          marginTop: '50px',
+          marginRight: 'auto',
+          marginLeft: 'auto',
+          maxWidth: '750px',
+        }}
+      >
+        <SkillTable />
       </Box>
     </div>
   );

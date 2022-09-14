@@ -22,7 +22,7 @@ const rows = [
 
 export default function SkillTable():JSX.Element {
   return (
-    <TableContainer component={Paper} >
+    <TableContainer component={Paper}>
       <Table aria-label="simple table">
         <TableHead>
           <TableRow sx={{ backgroundColor:"lavender"}}>
