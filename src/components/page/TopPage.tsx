@@ -9,18 +9,20 @@ import trash from '../../assets/trash.png';
 import GitActions from "../ui/GitActions";
 const siteDataList = [
   {
-    title:"Formula",
-    body:"React+ReactFlow+Firebaseを用いて作成した、フローチャートからフォームを作成できるアプリです。",
-    url:"https://easy-diagram-form.web.app/",
-    imagePath:test_play
+    title: 'Formula',
+    body: 'React+ReactFlow+Firebaseを用いて作成した、フローチャートからフォームを作成できるアプリです。',
+    url: 'https://easy-diagram-form.web.app/',
+    repoUrl: 'https://github.com/hamhamburger/easy-diagram-form',
+    imagePath: test_play,
   },
   {
-    title:"ゴミ箱",
-    body:"勉強の過程で生まれたTodoリストやカウンターなどのコンポーネントの墓場です（特に面白いものはありません）",
-    url:"https://react-practice-febca.web.app/",
-    imagePath:trash
-  }
-]
+    title: 'ゴミ箱',
+    body: '勉強の過程で生まれたTodoリストやカウンターなどのコンポーネントの墓場です（特に面白いものはありません）',
+    url: 'https://react-practice-febca.web.app/',
+    repoUrl: 'https://github.com/hamhamburger/typescript-training',
+    imagePath: trash,
+  },
+];
 
 
 const TopPage = ():JSX.Element => {
@@ -48,6 +50,7 @@ const TopPage = ():JSX.Element => {
               width='100px'
               description={siteData.body}
               url={siteData.url}
+              repoUrl={siteData.repoUrl}
               imagePath={siteData.imagePath}
             />
           );
