@@ -2,10 +2,11 @@
 import Background from "../ui/Background";
 import Header from "../ui/Header";
 import SiteCard from "../ui/SiteCard";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import SkillTable from "../ui/SkillTable";
 import test_play from "../../assets/test_play.gif"
 import trash from '../../assets/trash.png';
+import GitActions from "../ui/GitActions";
 const siteDataList = [
   {
     title:"Formula",
@@ -63,6 +64,11 @@ const TopPage = ():JSX.Element => {
         }}
       >
         <SkillTable />
+
+        <Box sx={{ marginTop: "50px" }}>
+          <Typography variant="h4" sx={{color:"white"}}>Recent commits</Typography>
+          <GitActions />
+        </Box>
       </Box>
     </div>
   );
