@@ -6,6 +6,7 @@ import { Box, Typography } from "@mui/material";
 import SkillTable from "../ui/SkillTable";
 import test_play from "../../assets/test_play.gif"
 import trash from '../../assets/trash.png';
+import indeed from '../../assets/indeed.png';
 import GitActions from "../ui/GitActions";
 const siteDataList = [
   {
@@ -21,6 +22,13 @@ const siteDataList = [
     url: 'https://react-practice-febca.web.app/',
     repoUrl: 'https://github.com/hamhamburger/typescript-training',
     imagePath: trash,
+  },
+  {
+    title: '写経indeed',
+    body: '見た目がIndeedっぽいhotpepperの検索サイトです。サーバサイドができていないので検索はまだできません。',
+    url: 'https://hamhamburger.github.io/clone-indeed/',
+    repoUrl: 'https://github.com/hamhamburger/clone-indeed',
+    imagePath: indeed,
   },
 ];
 
