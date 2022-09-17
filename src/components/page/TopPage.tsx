@@ -25,7 +25,7 @@ const siteDataList = [
   },
   {
     title: '写経indeed',
-    body: '見た目がIndeedっぽいhotpepperの検索サイトです。サーバサイドができていないので検索はまだできません。',
+    body: 'Reactで作った見た目がIndeedっぽいhotpepperの検索サイトです。サーバサイドができていないので検索はまだできません。',
     url: 'https://hamhamburger.github.io/clone-indeed/',
     repoUrl: 'https://github.com/hamhamburger/clone-indeed',
     imagePath: indeed,
